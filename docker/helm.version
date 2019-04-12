@@ -1,0 +1,6 @@
+# NB Helm clients will refuse to play with Tiller that is older. 2.8.2
+# is the first release that had checksums; but 2.9.1 appears the first
+# that reliably supports authenticating against chart repos, so that
+# wins.
+HELM_VERSION=2.13.0
+HELM_CHECKSUM=15eca6ad225a8279de80c7ced42305e24bc5ac60bb7d96f2d2fa4af86e02c794
